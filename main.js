@@ -6,14 +6,14 @@ const k = kaplay({
 
 k.loadSprite("sky", "assets/sky.jpeg");
 k.loadSprite("trees-far", "assets/trees-far.png");
-k.loadSprite("mountain", "assets/mountain.png");
-k.loadSprite("green_trees", "assets/green_trees.png");
+k.loadSprite("trees-med", "assets/trees-med.png");
+k.loadSprite("trees-close", "assets/trees-close.png");
 
 const layers = [
     { name: "sky", speed: 10 },
     { name: "trees-far", speed: 20 },
-    { name: "mountain", speed: 80 },
-    { name: "green_trees", speed: 500 },
+    { name: "trees-med", speed: 80 },
+    { name: "trees-close", speed: 500 },
 ];
 
 // This MUST match the actual width of your images (1024)
