@@ -22,8 +22,10 @@ const IMG_WIDTH = 1024;
 layers.forEach((layer) => {
     for (let i = 0; i < 2; i++) {
         k.add([
-            k.sprite(layer.name),
-            // Place first at 0, second at 1024
+            k.sprite(layer.name, {
+                // Flip every second image horizontally to hide the seam
+                flipX: i % 2 !== 0, 
+            }),
             k.pos(i * IMG_WIDTH, 0),
             "bg_layer",
             { speed: layer.speed }
