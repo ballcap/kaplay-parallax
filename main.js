@@ -12,8 +12,8 @@ k.loadSprite("trees-close", "assets/trees-close.png");
 const layers = [
     { name: "sky", speed: 10 },
     { name: "trees-far", speed: 20 },
-    { name: "trees-med", speed: 80 },
-    { name: "trees-close", speed: 500 },
+    { name: "trees-med", speed: 60 },
+    { name: "trees-close", speed: 110 },
 ];
 
 // This MUST match the actual width of your images (1024)
