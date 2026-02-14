@@ -4,7 +4,7 @@ const k = kaplay({
     letterbox: true,
 });
 
-k.loadSprite("sky", "assets/sky.png");
+k.loadSprite("sky", "assets/sky.jpeg");
 k.loadSprite("sun", "assets/sun.png");
 k.loadSprite("mountain", "assets/mountain.png");
 k.loadSprite("green_trees", "assets/green_trees.png");
